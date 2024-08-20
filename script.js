@@ -16,7 +16,7 @@ const updateTasksList = () => {
     taskList.innerHTML = ''; // Clear the current list
 
     tasks.forEach((task, index) => {
-        const listItem = document.createElement('li');
+        const listItem = document.createElement('ul');
 
         listItem.innerHTML = `
             <div class="taskitem">
